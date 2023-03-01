@@ -1,0 +1,39 @@
+.about__container {
+    background-color: $white-color;
+    display: flex;
+    gap: 30px;
+    padding-right: 115px;
+}
+
+.about__subtitle {
+    margin-bottom: 20px;
+}
+
+/* .about__subtitle::before {
+    position: absolute;
+    left: 1px;
+    top: 7px;
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: $dark-color;
+} */
+
+.about__title {
+    margin-bottom: 20px;
+}
+
+.about__text {
+    margin-bottom: 20px;
+    color: $grey-color;
+}
+
+.about__subtext {
+    margin-bottom: 42px;
+    color: $grey-color;
+}
+
+.about__button {
+    color: $dark-color;
+    background-color: $white-color;
+}

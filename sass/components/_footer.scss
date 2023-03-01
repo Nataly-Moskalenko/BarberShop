@@ -1,0 +1,41 @@
+.footer {
+    width: 1600px;
+    margin: 0 auto;
+    background-color: $light-background-color;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 127px;
+}
+
+.footer__text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+
+    color: $light-color;
+}
+
+.footer__social {
+    display: flex;
+    position: relative;
+    padding-left: 100px;
+}
+
+.footer__social::before {
+    position: absolute;
+    left: 1px;
+    top: 7px;
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: $light-color;
+}
+
+.social__item:first-of-type {
+    margin-right: 40px;
+}
