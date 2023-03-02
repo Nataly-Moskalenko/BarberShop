@@ -1,65 +1,65 @@
 .services {
-    width: 1600px;
-    height: 692px;
-    margin: 0 auto;
-    background-image: url('../images/prices.jpg');
-    background-color: $services-background-color;
+  width: 1600px;
+  height: 692px;
+  margin: 0 auto;
+  background-image: url('../images/prices.jpg');
+  background-color: $services-background-color;
 }
 
 .services__subtitle {
-    margin-bottom: 20px;
-    color: $transparent-color;
+  margin-bottom: 20px;
+  color: $transparent-color;
 }
 
 .services__subtitle::before {
-    background-color: $transparent-color;
+  background-color: $transparent-color;
 }
 
 .services__title {
-    margin-bottom: 44px;
-    color: $white-color;
+  margin-bottom: 44px;
+  color: $white-color;
 }
 
 .services__service,
 .services__price {
-    font-size: 18px;
-    line-height: 1.67;
-    letter-spacing: 0.02em;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
 
-    color: $light-color;
+  color: $light-color;
 }
 
 .services__prices {
-    margin-bottom: 44px;
+  margin-bottom: 44px;
 }
 
 .services__prices,
 .services__item {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .services__list {
-    width: 570px;
-    padding: 30px 20px;
+  width: 570px;
+  padding: 30px 20px;
 }
 
 .services__item:not(:last-child) {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .services__prices :first-child {
-    background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+  background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
 }
 
 .services__prices :last-child {
-    background: linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.2) 100%);
+  background: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
 }
 
 .services__button {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 
-    color: $white-color;
-    background-color: $services-background-color;
+  color: $white-color;
+  background-color: $services-background-color;
 }

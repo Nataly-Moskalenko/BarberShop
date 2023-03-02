@@ -1,57 +1,57 @@
 .benefits__container {
-    display: flex;
-    padding-left: 115px;
-    padding-right: 85px;
-    background-color: $white-color;
+  display: flex;
+  padding-left: 115px;
+  padding-right: 85px;
+  background-color: $white-color;
 }
 
 .benefits__list {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .benefits__item {
-    width: 170px;
-    height: 133px;
-    padding: 20px 24px;
-    background-color: $light-background-color;
+  width: 170px;
+  height: 133px;
+  padding: 20px 24px;
+  background-color: $light-background-color;
 }
 
 .benefits__item:nth-child(2n) {
-    margin-top: 35px;
+  margin-top: 35px;
 }
 
 .benefits__number {
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.05em;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
 }
 
 .benefits__content {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.36;
-    text-align: center;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
 }
 
 .benefits__sup {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.38;
-    text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
 
-    color: $accent-color;
+  color: $accent-color;
 }
 
 .benefits__description {
-    margin-left: 130px;
+  margin-left: 130px;
 }
 
 .benefits__subtitle {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* .benefits__subtitle::before {
@@ -65,9 +65,9 @@
 } */
 
 .benefits__title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .benefits__text {
-    color: $grey-color;
+  color: $grey-color;
 }

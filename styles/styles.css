@@ -132,6 +132,10 @@ p {
   align-self: flex-end;
 }
 
+.nav__list {
+    display: flex;
+}
+
 .nav__item:not(:last-child) {
   margin-right: 30px;
 }
@@ -529,7 +533,7 @@ p {
   margin-left: 130px;
 }
 
-.benefits__text {
+.benefits__content {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -579,7 +583,7 @@ p {
   color: var(--dark-color);
 }
 
-.benefits__subtext {
+.benefits__text {
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
@@ -861,6 +865,7 @@ p {
 .address__item:not(:first-of-type) {
   margin-top: 20px;
 }
+
 .address__link {
   display: flex;
   flex-wrap: wrap;
@@ -877,9 +882,10 @@ p {
   color: var(--light-color);
 }
 
-.address__email {
+.address__mail {
   text-decoration-line: underline;
 }
+
 .address__map .address__span {
   font-weight: 700;
 }

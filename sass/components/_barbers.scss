@@ -1,11 +1,11 @@
 .barbers {
-    max-width: 1600px;
-    margin: 0 auto;
-    background-color: $light-background-color;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: $light-background-color;
 }
 
 .barbers__subtitle {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* .barbers__subtitle::before {
@@ -19,52 +19,52 @@
 } */
 
 .barbers__title {
-    margin-bottom: 44px;
+  margin-bottom: 44px;
 }
 
 .barbers__list {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .card__title {
-    margin-top: 30px;
-    font-size: 18px;
-    line-height: 1.39;
-    text-align: center;
-    letter-spacing: 0.02em;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .card__text {
-    margin-top: 8px;
-    font-size: 14px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.02em;
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.02em;
 
-    color: $accent-color;
+  color: $accent-color;
 }
 
 .card__list {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .card__link {
-    display: block;
-    padding: 12px;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: $white-color;
+  display: block;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: $white-color;
 }
 
 .card__social {
-    fill: $dark-color;
+  fill: $dark-color;
 }
 
 .card__social:hover,
 .card__social:focus {
-    fill: $accent-color;
+  fill: $accent-color;
 }

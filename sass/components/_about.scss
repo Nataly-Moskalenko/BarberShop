@@ -1,12 +1,12 @@
 .about__container {
-    background-color: $white-color;
-    display: flex;
-    gap: 30px;
-    padding-right: 115px;
+  background-color: $white-color;
+  display: flex;
+  gap: 30px;
+  padding-right: 115px;
 }
 
 .about__subtitle {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* .about__subtitle::before {
@@ -20,20 +20,20 @@
 } */
 
 .about__title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .about__text {
-    margin-bottom: 20px;
-    color: $grey-color;
+  margin-bottom: 20px;
+  color: $grey-color;
 }
 
 .about__subtext {
-    margin-bottom: 42px;
-    color: $grey-color;
+  margin-bottom: 42px;
+  color: $grey-color;
 }
 
 .about__button {
-    color: $dark-color;
-    background-color: $white-color;
+  color: $dark-color;
+  background-color: $white-color;
 }
