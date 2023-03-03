@@ -245,6 +245,7 @@ p {
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.2em;
+  color: inherit;
 }
 
 .social__link:hover,
@@ -641,6 +642,95 @@ p {
   gap: 30px;
 }
 
+.form {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 570px;
+  row-gap: 44px;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  margin-top: 44px;
+}
+
+.form__input {
+  background-color: #191c26;
+  width: 250px;
+  height: 24px;
+  color: rgba(157, 164, 189, 0.4);
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  outline: none;
+}
+
+.form__span {
+  position: absolute;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.4);
+}
+
+.form__name {
+  left: 0;
+  top: 0;
+}
+
+.form__phone {
+  left: 300px;
+  top: 0;
+}
+
+.form__text {
+  left: 0;
+}
+
+.form__label:hover .form__span,
+.form__label:focus .form__span,
+.form__label:focus-within .form__span {
+  color: #ffffff;
+  -webkit-transform: translate(-16px, -16px) scale(0.7);
+          transform: translate(-16px, -16px) scale(0.7);
+}
+
+.form__input:not(:-moz-placeholder-shown) + .form__span, .form__textarea:not(:-moz-placeholder-shown) + .form__span {
+  transform: translate(-16px, -16px) scale(0.7);
+}
+
+.form__input:not(:-ms-input-placeholder) + .form__span, .form__textarea:not(:-ms-input-placeholder) + .form__span {
+  transform: translate(-16px, -16px) scale(0.7);
+}
+
+.form__input:not(:placeholder-shown) + .form__span,
+.form__textarea:not(:placeholder-shown) + .form__span {
+  -webkit-transform: translate(-16px, -16px) scale(0.7);
+          transform: translate(-16px, -16px) scale(0.7);
+}
+
+.form__label:hover .form__input,
+.form__label:focus .form__input,
+.form__label:hover .form__textarea,
+.form__label:focus .form__textarea {
+  border-bottom: 1px solid #ffffff;
+}
+
+.form__textarea {
+  background-color: #191c26;
+  width: 530px;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  resize: none;
+  color: rgba(157, 164, 189, 0.4);
+  outline: none;
+}
+
 .booking-contacts {
   max-width: 1600px;
   margin: 0 auto;
@@ -665,95 +755,6 @@ p {
 
 .booking-contacts__title {
   color: #ffffff;
-}
-
-.form {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 570px;
-  row-gap: 44px;
-  -webkit-column-gap: 30px;
-     -moz-column-gap: 30px;
-          column-gap: 30px;
-  margin-top: 44px;
-}
-
-.form__input {
-  background-color: #191c26;
-  width: 270px;
-  height: 24px;
-  padding-left: 48px;
-  color: rgba(157, 164, 189, 0.4);
-  border: none;
-  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
-  outline: none;
-}
-
-.form__number {
-  padding-left: 55px;
-}
-
-.form__name {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: rgba(157, 164, 189, 0.4);
-}
-
-.form__phone {
-  position: absolute;
-  top: 0;
-  left: 300px;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: rgba(157, 164, 189, 0.4);
-}
-
-.form__label:hover .form__span,
-.form__label:focus .form__span {
-  color: #ffffff;
-}
-
-.form__label:hover .form__input,
-.form__label:focus .form__input,
-.form__label:hover .form__textarea,
-.form__label:focus .form__textarea {
-  border-bottom: 1px solid #ffffff;
-}
-
-.form__textarea {
-  background-color: #191c26;
-  width: 570px;
-  padding: 0;
-  padding-left: 68px;
-  border: none;
-  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
-  resize: none;
-  color: rgba(157, 164, 189, 0.4);
-  outline: none;
-}
-
-.form__text {
-  position: absolute;
-  left: 0;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: rgba(157, 164, 189, 0.4);
 }
 
 .booking-contacts__button {

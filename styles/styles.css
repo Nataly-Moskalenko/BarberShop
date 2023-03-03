@@ -133,7 +133,7 @@ p {
 }
 
 .nav__list {
-    display: flex;
+  display: flex;
 }
 
 .nav__item:not(:last-child) {
@@ -794,6 +794,7 @@ p {
 .form__label:hover .form__span,
 .form__label:focus .form__span {
   color: var(--white-color);
+  transform: translate(-10px, -16px) scale(0.7);
 }
 
 .form__label:hover .form__input,

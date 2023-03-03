@@ -1,0 +1,76 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 570px;
+  row-gap: 44px;
+  column-gap: 30px;
+  margin-top: 44px;
+}
+
+.form__input {
+  background-color: $footer-background-color;
+  width: 250px;
+  height: 24px;
+  
+  color: $form-color;
+  border: none;
+  border-bottom: 1px solid $form-color;
+  outline: none;
+}
+
+.form__span {
+  position: absolute;
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: $form-color;
+}
+
+.form__name {
+  left: 0;
+  top: 0;
+}
+
+.form__phone {
+  left: 300px;
+  top: 0;
+}
+
+.form__text {
+  left: 0;
+}
+
+.form__label:hover .form__span,
+.form__label:focus .form__span,
+.form__label:focus-within .form__span {
+  color: $white-color;
+  transform: translate(-16px, -16px) scale(0.7);
+}
+
+.form__input:not(:placeholder-shown) + .form__span,
+.form__textarea:not(:placeholder-shown) + .form__span {
+  transform: translate(-16px, -16px) scale(0.7);
+}
+
+.form__label:hover .form__input,
+.form__label:focus .form__input,
+.form__label:hover .form__textarea,
+.form__label:focus .form__textarea {
+  border-bottom: 1px solid $white-color;
+}
+
+.form__textarea {  
+  background-color: $footer-background-color;
+  width: 530px;
+  padding: 0; 
+  border: none;
+  border-bottom: 1px solid $form-color;
+  resize: none;
+  color: $form-color;
+  outline: none;
+}
