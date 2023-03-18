@@ -2,29 +2,19 @@
   max-width: 1600px;
   margin: 0 auto;
   background-color: $light-background-color;
-}
 
-.barbers__subtitle {
-  margin-bottom: 20px;
-}
+  &__subtitle {
+    margin-bottom: 20px;
+  }
 
-/* .barbers__subtitle::before {
-    position: absolute;
-    left: 1px;
-    top: 7px;
-    content: '';
-    width: 60px;
-    height: 1px;
-    background-color: $dark-color;
-} */
+  &__title {
+    margin-bottom: 44px;
+  }
 
-.barbers__title {
-  margin-bottom: 44px;
-}
-
-.barbers__list {
-  display: flex;
-  gap: 30px;
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
 }
 
 .card__title {
@@ -41,7 +31,6 @@
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.02em;
-
   color: $accent-color;
 }
 
@@ -62,9 +51,9 @@
 
 .card__social {
   fill: $dark-color;
-}
 
-.card__social:hover,
-.card__social:focus {
-  fill: $accent-color;
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+  }
 }

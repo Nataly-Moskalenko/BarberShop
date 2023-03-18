@@ -16,10 +16,10 @@
   height: 133px;
   padding: 20px 24px;
   background-color: $light-background-color;
-}
 
-.benefits__item:nth-child(2n) {
-  margin-top: 35px;
+  &:nth-child(2n) {
+    margin-top: 35px;
+  }
 }
 
 .benefits__number {
@@ -42,7 +42,6 @@
   font-size: 16px;
   line-height: 1.38;
   text-align: center;
-
   color: $accent-color;
 }
 
@@ -53,16 +52,6 @@
 .benefits__subtitle {
   margin-bottom: 20px;
 }
-
-/* .benefits__subtitle::before {
-    position: absolute;
-    left: 1px;
-    top: 7px;
-    content: '';
-    width: 60px;
-    height: 1px;
-    background-color: $dark-color;
-} */
 
 .benefits__title {
   margin-bottom: 20px;

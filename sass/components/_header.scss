@@ -1,10 +1,9 @@
 .header {
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-}
+  position: absolute;
+  width: 100%;
+  z-index: 1;
 
-.header__navigation {
+  &__navigation {
     flex-grow: 1;
     padding-top: 40px;
     padding-left: 100px;
@@ -13,42 +12,15 @@
     justify-content: space-between;
     align-items: center;
     background-color: $hero-background-color;
-}
+  }
 
-.header__container,
-.nav__list {
-    display: flex;
-}
-
-.header__link {
+  &__link {
     display: block;
     width: 100px;
     align-self: flex-end;
-}
+  }
 
-.nav__list {
-    display: flex;
-}
-
-.nav__item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.nav__link {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.1em;
-
-    color: $white-color;
-}
-
-.nav__link:hover,
-.nav__link:focus {
-    color: $accent-color;
-}
-
-.header__tel {
+  &__tel {
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
@@ -56,10 +28,33 @@
     text-transform: uppercase;
 
     color: $white-color;
-}
+  }
 
-.header__button {
+  &__button {
     margin-left: 40px;
     color: $white-color;
     background-color: $footer-background-color;
+  }
+}
+
+.header__container,
+.nav__list {
+  display: flex;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.nav__link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: $white-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }

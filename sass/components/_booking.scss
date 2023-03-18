@@ -8,92 +8,90 @@
   background-position: top right;
   background-size: 785px 634px;
   background-repeat: no-repeat;
-}
 
-.booking-contacts.section {
-  padding-top: 130px;
-}
+  &.section {
+    padding-top: 130px;
+  }
 
-.booking-contacts__container {
-  display: flex;
-  gap: 30px;
-}
+  &__container {
+    display: flex;
+    gap: 30px;
+  }
 
-.booking-contacts__title {
-  color: $white-color;
-}
+  &__title {
+    color: $white-color;
+  }
 
-.booking-contacts__button {
-  margin-top: 44px;
-  text-align: center;
+  &__button {
+    margin-top: 44px;
+    text-align: center;
+    color: $white-color;
+    background-color: $footer-background-color;
+  }
 
-  color: $white-color;
-  background-color: $footer-background-color;
-}
+  &__contacts {
+    width: 785px;
+    margin-left: 130px;
+  }
 
-.booking-contacts__contacts {
-  width: 785px;
-  margin-left: 130px;
+  &__subtitle {
+    margin-top: 70px;
+    color: $white-color;
+  }
+
+  &__subtitle::before {
+    background-color: $light-color;
+  }
+
+  &__text {
+    margin-top: 20px;
+    color: $light-color;
+  }
 }
 
 .address {
   margin-top: 40px;
-  /* width: 270px; */
-}
 
-.address__list:first-child {
-  max-width: 250px;
-}
+  &__list:first-child {
+    max-width: 250px;
+  }
 
-.address__item {
-  display: flex;
-  gap: 16px;
-}
+  &__item {
+    display: flex;
+    gap: 16px;
+  }
 
-.address__item:not(:first-of-type) {
-  margin-top: 20px;
-}
+  &__item:not(:first-of-type) {
+    margin-top: 20px;
+  }
 
-.address__link {
-  display: flex;
-  flex-wrap: wrap;
-  color: $light-color;
-  font-style: normal;
-}
+  &__link {
+    display: flex;
+    flex-wrap: wrap;
+    color: $light-color;
+    font-style: normal;
+  }
 
-.address__link .address__span {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 0.02em;
+  &__link .address__span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
 
-  color: $light-color;
-}
+    color: $light-color;
+  }
 
-.address__map .address__span {
-  font-weight: 700;
-}
+  &__map .address__span {
+    font-weight: 700;
+  }
 
-.address__mail {
-  text-decoration-line: underline;
-}
+  &__mail {
+    text-decoration-line: underline;
+  }
 
-.address__icon {
-  stroke: $light-color;
-  margin-right: 16px;
-  align-self: center;
-}
-
-.booking-contacts__subtitle {
-  margin-top: 70px;
-  color: $white-color;
-}
-
-.booking-contacts__subtitle::before {
-  background-color: $light-color;
-}
-
-.booking-contacts__text {
-  margin-top: 20px;
-  color: $light-color;
+  &__icon {
+    stroke: $light-color;
+    margin-right: 16px;
+    align-self: center;
+  }
 }

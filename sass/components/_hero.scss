@@ -10,21 +10,20 @@
   gap: 90px;
   flex-direction: column-reverse;
   justify-content: end;
-
   width: 100px;
   padding-bottom: 160px;
   padding-top: 280px;
-}
 
-.hero__social::before {
-  position: absolute;
-  left: 1px;
-  bottom: 70px;
-  content: '';
-  width: 60px;
-  height: 1px;
-  transform: rotate(-90deg);
-  background-color: $dark-color;
+  &::before {
+    position: absolute;
+    left: 1px;
+    bottom: 70px;
+    content: '';
+    width: 60px;
+    height: 1px;
+    transform: rotate(-90deg);
+    background-color: $dark-color;
+  }
 }
 
 .social__link {
@@ -34,11 +33,11 @@
   line-height: 1.36;
   letter-spacing: 0.2em;
   color: inherit;
-}
 
-.social__link:hover,
-.social__link:focus {
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .hero .social__item {
@@ -47,23 +46,10 @@
   transform: rotate(-90deg);
 }
 
-/* .hero .social__item {    
-    transform: rotate(-90deg) translateY(30px);
-    transform-origin: left;
-} */
-
 .hero__description {
   flex-grow: 1;
   padding-top: 180px;
   padding-left: 100px;
-  /* width: 1070px;
-    height: 600px;
-    background-color: $hero-background-color;
-    background-image: linear-gradient($hero-background-color, $hero-background-color), url(../images/slider.jpg);
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 1070px 680px;
-    background-size: cover; */
 }
 
 .hero__subtitle {
@@ -72,11 +58,11 @@
   position: relative;
   color: $transparent-color;
   margin-bottom: 20px;
-}
 
-.hero__subtitle::before {
-  z-index: 1;
-  background-color: $transparent-color;
+  &::before {
+    z-index: 1;
+    background-color: $transparent-color;
+  }
 }
 
 .hero__title {
@@ -94,13 +80,3 @@
   z-index: 1;
   color: $light-color;
 }
-
-/* .hero__item {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  text-align: right;
-  letter-spacing: 0.1em;
-
-  color: var(--white-color);
-} */

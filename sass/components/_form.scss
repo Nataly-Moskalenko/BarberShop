@@ -6,71 +6,68 @@
   row-gap: 44px;
   column-gap: 30px;
   margin-top: 44px;
-}
 
-.form__input {
-  background-color: $footer-background-color;
-  width: 250px;
-  height: 24px;
-  
-  color: $form-color;
-  border: none;
-  border-bottom: 1px solid $form-color;
-  outline: none;
-}
+  &__input {
+    background-color: $footer-background-color;
+    width: 250px;
+    height: 24px;
+    color: $white-color;
+    border: none;
+    border-bottom: 1px solid $form-color;
+    outline: none;
+  }
 
-.form__span {
-  position: absolute;
+  &__span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $form-color;
+  }
 
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  &__name {
+    left: 0;
+    top: 0;
+  }
 
-  color: $form-color;
-}
+  &__phone {
+    left: 300px;
+    top: 0;
+  }
 
-.form__name {
-  left: 0;
-  top: 0;
-}
+  &__text {
+    left: 0;
+  }
 
-.form__phone {
-  left: 300px;
-  top: 0;
-}
+  &__label:hover .form__span,
+  &__label:focus .form__span,
+  &__label:focus-within .form__span {
+    color: $white-color;
+    transform: translate(-16px, -16px) scale(0.7);
+  }
 
-.form__text {
-  left: 0;
-}
+  &__input:not(:placeholder-shown) + .form__span,
+  &__textarea:not(:placeholder-shown) + .form__span {
+    transform: translate(-16px, -16px) scale(0.7);
+  }
 
-.form__label:hover .form__span,
-.form__label:focus .form__span,
-.form__label:focus-within .form__span {
-  color: $white-color;
-  transform: translate(-16px, -16px) scale(0.7);
-}
+  &__label:hover .form__input,
+  &__label:focus .form__input,
+  &__label:hover .form__textarea,
+  &__label:focus .form__textarea {
+    border-bottom: 1px solid $white-color;
+  }
 
-.form__input:not(:placeholder-shown) + .form__span,
-.form__textarea:not(:placeholder-shown) + .form__span {
-  transform: translate(-16px, -16px) scale(0.7);
-}
-
-.form__label:hover .form__input,
-.form__label:focus .form__input,
-.form__label:hover .form__textarea,
-.form__label:focus .form__textarea {
-  border-bottom: 1px solid $white-color;
-}
-
-.form__textarea {  
-  background-color: $footer-background-color;
-  width: 530px;
-  padding: 0; 
-  border: none;
-  border-bottom: 1px solid $form-color;
-  resize: none;
-  color: $form-color;
-  outline: none;
+  &__textarea {
+    background-color: $footer-background-color;
+    width: 530px;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid $form-color;
+    resize: none;
+    color: $white-color;
+    outline: none;
+  }
 }

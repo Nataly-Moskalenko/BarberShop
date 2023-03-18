@@ -1,48 +1,54 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    margin: 0;
-    font-family: $primary-font;
-    color: $dark-color;
+  margin: 0;
+  font-family: $primary-font;
+  color: $dark-color;
 }
 
 .button {
-    cursor: pointer;
-    font-family: inherit;
-    width: 160px;
-    height: 40px;
-    border: 1px solid $accent-color;
-    border-radius: 25px;
+  cursor: pointer;
+  font-family: inherit;
+  width: 160px;
+  height: 40px;
+  border: 1px solid $accent-color;
+  border-radius: 25px;
 
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    color: $white-color;
+    background-color: $accent-color;
+  }
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 h1,
@@ -52,49 +58,48 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+  margin: 0;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container {
-    width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 
-    &--nopadding {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
+  &--nopadding {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 .subtitle {
-    padding-left: 80px;
-    position: relative;
+  padding-left: 80px;
+  position: relative;
 
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.36;
-    text-transform: uppercase;
-}
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
 
-.subtitle::before {
+  &::before {
     position: absolute;
     left: 1px;
     top: 7px;
@@ -102,24 +107,25 @@ p {
     width: 60px;
     height: 1px;
     background-color: $dark-color;
+  }
 }
 
 .title {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 1.17;
-    letter-spacing: 0.05em;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
 }
 
 .text {
-    font-size: 18px;
-    line-height: 1.67;
-    letter-spacing: 0.02em;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
 }
 
 .subtext {
-    font-size: 14px;
-    line-height: 1.86;
-    letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
 }
